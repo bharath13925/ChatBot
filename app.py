@@ -16,7 +16,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 ## Streamlit UI
-st.title("LangChain Demo With OLLAMA (Free Local LLM)")
+st.title("LangChain Demo With OLLAMA")
 input_text = st.text_input("Search the topic you want")
 
 # Ollama LLM
